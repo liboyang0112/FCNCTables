@@ -1,0 +1,27 @@
+\documentclass[10pt]{article}
+\usepackage{siunitx}
+\sisetup{separate-uncertainty,table-format=6.3(6)}  % hint: modify table-format to best fit your tables
+\usepackage[margin=0.1in,landscape,papersize={210mm,350mm}]{geometry}
+\begin{document}
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|l|S|S|S|S|S|}
+\hline 
+ & {t_{l}#tau_{had}-1j} & {t_{l}#tau_{had}2j} & {t_{h}#tau_{lep}#tau_{had}-3j} & {t_{h}#tau_{lep}#tau_{had}-2j} & {t_{l}#tau_{had}#tau_{had}}\\
+\hline 
+  QCD Fake   & 916.796 \pm 213.347 & 434.626 \pm 98.0269 & 233.806 \pm 77.3138 & 416.73 \pm 107.704 & 0 \pm 0 \\ 
+  W-jet fake   & 839.602 \pm 175.991 & 963.47 \pm 210.33 & 2934.61 \pm 601.344 & 3434.22 \pm 820.16 & 4.95671 \pm 1.5738 \\ 
+  Other Fake   & 2918.71 \pm 217.062 & 2625.87 \pm 160.649 & 1767.93 \pm 454.809 & 1635.44 \pm 785.209 & 138.859 \pm 13.9586 \\ 
+  b Fake   & 811.715 \pm 108.082 & 1015.84 \pm 156.776 & 522.385 \pm 68.6868 & 573.087 \pm 74.2346 & 68.0991 \pm 8.19659 \\ 
+  Lep fake   & 221.679 \pm 29.47 & 87.8128 \pm 9.63376 & 307.454 \pm 33.8844 & 563.248 \pm 60.6338 & 0.877443 \pm 0.343056 \\ 
+  Double Fake   & 0 \pm 0 & 0 \pm 0 & 0 \pm 0 & 0 \pm 0 & 89.7429 \pm 23.249 \\ 
+  #bar{t}t   & 280.14 \pm 14.979 & 178.8 \pm 26.6617 & 7081.53 \pm 363.556 & 11610.1 \pm 476.347 & 5.10261 \pm 2.69911 \\ 
+  Other MC   & 84.6161 \pm 7.33765 & 83.3033 \pm 3.09298 & 879.996 \pm 67.7498 & 1591.41 \pm 85.0487 & 40.7854 \pm 1.74205 \\ 
+\hline 
+  Total  & 6073.26 \pm 170.058 & 5389.71 \pm 93.5766 & 13727.7 \pm 137.372 & 19824.2 \pm 163.81 & 348.423 \pm 26.4542 \\ 
+\hline 
+\end{tabular} 
+\caption{Yields of the analysis} 
+\end{center} 
+\end{table} 
+\end{document}
